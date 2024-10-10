@@ -51,7 +51,6 @@ left: 0;
 width: 250px;
 height: 100%;
 background-color: aliceblue;
-padding-top: 20px;
 box-shadow: 2px 0 5px rgb(0, 0, 0 0.5);
 }
 
@@ -124,4 +123,40 @@ gap: 9px;
         font-size: 2em;
         color: rgb(250, 248, 246);
     }
+} 
+
+.navlinks_sidebar{
+display: flex;
+width: 250px;
+flex-direction: column;
+background-color: rgb(153, 149, 145);
+height: 100%;
+top: 0;
+margin: 0;
+
+}
+.navlinks_sidebar a{
+    margin: 0;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.cards{
+flex-direction: column;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.cardsContainer{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.tituloContainer{
+text-align: center;
+
+
 }
