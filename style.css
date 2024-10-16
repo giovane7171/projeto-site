@@ -12,9 +12,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
-    background-color: rgb(90, 89, 87);
+    background-color: rgb(248, 191, 171);
     height: 18vh;
-
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 
 .navLinks {
@@ -22,6 +24,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    height: 0;
+    right: 0;
 }
 
 
@@ -38,38 +43,38 @@ body {
 
 
 .navLinks a:hover {
-    background-color: rgb(141, 141, 141);
+    background-color: rgb(104, 86, 86);
     height: 18vh;
 
 }
 
-.sidebar{
-display: none;
-position: fixed;
-top: 0;
-left: 0;
-width: 250px;
-height: 100%;
-background-color: aliceblue;
-box-shadow: 2px 0 5px rgb(0, 0, 0 0.5);
+.sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: aliceblue;
+    box-shadow: 2px 0 5px rgb(0, 0, 0 0.5);
 }
 
-.menubutton{
-display: none;
-width: 100px;
-height: 40px;
-border-radius: 4px;
-border-style: hidden;
-cursor: pointer;
-font-size: 1em;
-font-weight: 600;
-transition: 0.4s;
-background-color: rgba(0, 0, 0, 0);
+.menubutton {
+    display: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border-style: hidden;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    transition: 0.4s;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 
 .backgroundContainer {
-    background: url(/img/Kolektiv+JJ+Photo.png);
+    background: url(img/1445533710Judo_03_FIGHT.gif);
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -80,8 +85,11 @@ background-color: rgba(0, 0, 0, 0);
 
 .infcontainer {
     width: 290px;
-    color: #fff;
-
+    color: #000000;
+    background-color: rgb(250, 235, 215, 0, 5);
+    margin-top: 180px;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .infcontainer h1 {
@@ -94,69 +102,131 @@ background-color: rgba(0, 0, 0, 0);
 
 }
 
-.buttoncontainer{
-display: flex;
-justify-content: center;
-gap: 9px;
+.buttoncontainer {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+
 }
 
-.mainButton{
+.mainButton {
     width: 100px;
     height: 30px;
     border-radius: 4px;
     border-style: hidden;
     cursor: pointer;
-    font-size: lem; 
+    font-size: lem;
     font-weight: 600;
     transition: .4s
 }
-.mainButton:hover{
+
+.mainButton:hover {
     background-color: antiquewhite;
     border: 1px solid wheat;
 }
-@media (max-width: 835px){
-    .navLinks{
+
+@media (max-width: 835px) {
+    .navLinks {
         display: none;
     }
-    .menubutton{
+
+    .menubutton {
         display: flex;
         font-size: 2em;
         color: rgb(250, 248, 246);
     }
-} 
+}
 
-.navlinks_sidebar{
-display: flex;
-width: 250px;
-flex-direction: column;
-background-color: rgb(153, 149, 145);
-height: 100%;
-top: 0;
-margin: 0;
+.navlinks_sidebar {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    background-color: rgb(153, 149, 145);
+    height: 100%;
+    top: 0;
+    margin: 0;
 
 }
-.navlinks_sidebar a{
+
+.navlinks_sidebar a {
     margin: 0;
     padding: 20px 10px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
-.cards{
-flex-direction: column;
-display: flex;
-align-items: center;
-justify-content: center;
+
+.cards {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 350;
+    width: 100%;
+    padding: 0;
+}
+
+.cardsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    gap: 2px;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    
+}
+
+.tituloContainer {
+    text-align: center;
+    font-weight: 700;
+    font-size: medium;
 
 }
-.cardsContainer{
-display: flex;
-align-items: center;
-justify-content: center;
+
+
+.cards button {
+    border-radius: 3px;
 }
 
-.tituloContainer{
-text-align: center;
+.cards button:hover {
+
+    cursor: pointer;
+    background-color: dimgrey;
+
+}
+
+.imgwhats {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.buttoncontainer a {
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.cards p {
+
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.cards li {
+    text-align: center;
+    font-weight: 500;
 
 
+}
+.cards button{
+
+    
+    
 }
