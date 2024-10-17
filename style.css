@@ -162,9 +162,9 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    height: 350;
+    height: 450;
     width: 100%;
-    padding: 0;
+    padding: 0 30px;
 }
 
 .cardsContainer {
@@ -176,8 +176,9 @@ body {
     gap: 2px;
     text-align: center;
     flex-direction: column;
-    width: 100%;
-    padding: 0;
+    width: 85%;
+    padding: 0 30PX;
+    margin: auto;
     
 }
 
@@ -229,4 +230,16 @@ body {
 
     
     
+}
+
+.infcontainer p{
+
+    text-align: center;
+}
+@media (max-width: 510px){
+
+    .cards img{
+ width: 300px
+
+    }
 }
