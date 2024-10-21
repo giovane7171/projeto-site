@@ -226,11 +226,6 @@ body {
 
 
 }
-.cards button{
-
-    
-    
-}
 
 .infcontainer p{
 
@@ -242,4 +237,28 @@ body {
  width: 300px
 
     }
+}
+
+.cardfg{
+
+    text-align: center;
+}
+
+.cardfg p{
+
+    font-weight: 500;
+    margin: 0;
+    
+}
+
+.cardfg button{
+    border-radius: 3px;
+    margin-top: 20px;
+
+}
+.footerinf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
 }
