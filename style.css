@@ -1,9 +1,8 @@
 body {
-    margin: 0;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
     font-style: normal;
-
+margin: 0;
 }
 
 
@@ -12,11 +11,17 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
-    background-color: rgb(248, 191, 171);
+    background-color: rgb(252, 255, 255);
     height: 18vh;
     position: fixed;
     right: 0;
     left: 0;
+}
+
+.navContainer img{
+
+width: 250px;
+
 }
 
 .navLinks {
@@ -45,8 +50,23 @@ body {
 .navLinks a:hover {
     background-color: rgb(104, 86, 86);
     height: 18vh;
+    color: #ffffff;
 
 }
+button, a{
+    text-decoration: none;
+    border-style: none;
+    color: #000000;
+    height: 32px;
+    width: 150px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    transition: .4s;
+}
+a:hover{
+    color: #ffffff;
+}
+
 
 .sidebar {
     display: none;
@@ -74,7 +94,7 @@ body {
 
 
 .backgroundContainer {
-    background: url(img/1445533710Judo_03_FIGHT.gif);
+    background: url(img/8e90c1e2ba1b1a4f7b51e81fffa8b5dc7697c627-1920x1280-1.webp);
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -84,21 +104,27 @@ body {
 }
 
 .infcontainer {
-    width: 290px;
+    width: 350px;
     color: #000000;
-    background-color: rgb(250, 235, 215, 0, 5);
     margin-top: 180px;
     font-size: medium;
     font-weight: bold;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px;
 }
 
 .infcontainer h1 {
     margin: 0;
     text-align: center;
+color: #f8f8f8;
+
+
 }
 
 .infcontainer p {
     text-align: justify;
+    color: #ffffff;
 
 }
 
@@ -256,9 +282,25 @@ body {
     margin-top: 20px;
 
 }
+.footerContainer{
+display: flex;
+justify-content: center;
+align-items: baseline;
+gap: 100px;
+
+}
+
 .footerinf{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 15px;
+    gap: 15PX;
+}
+
+.footerg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15PX;
+
 }
