@@ -27,7 +27,354 @@ width: 250px;
 .navLinks {
     height: 18vh;
     display: flex;
+    justify-content: center;body {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+margin: 0;
+}
+
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    background-color: rgb(252, 255, 255);
+    height: 18vh;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+.navContainer img{
+
+width: 250px;
+
+}
+
+.navLinks {
+    height: 18vh;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 0;
+    right: 0;
+}
+
+
+
+.navLinks a {
+    padding: 0 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.35em;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.navLinks a:hover {
+    background-color: rgb(104, 86, 86);
+    height: 18vh;
+    color: #ffffff;
+
+}
+button, a{
+    text-decoration: none;
+    border-style: none;
+    color: #000000;
+    height: 32px;
+    width: 150px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    transition: .4s;
+}
+a:hover{
+    color: #ffffff;
+}
+
+
+.sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: aliceblue;
+    box-shadow: 2px 0 5px rgb(0, 0, 0 0.5);
+   
+}
+
+.menubutton {
+    display: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border-style: hidden;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    transition: 0.4s;
+    background-color: rgba(0, 0, 0, 0);
+    color: aqua;
+}
+
+
+.backgroundContainer {
+    background: url(img/8e90c1e2ba1b1a4f7b51e81fffa8b5dc7697c627-1920x1280-1.webp);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.infcontainer {
+    width: 350px;
+    color: #000000;
+    margin-top: 180px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 5px 5px 5px 5px;
+    padding: 20px;
+}
+
+.infcontainer h1 {
+    margin: 0;
+    text-align: center;
+color: #f8f8f8;
+
+
+}
+
+.infcontainer p {
+    text-align: justify;
+    color: #ffffff;
+
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+
+}
+
+.mainButton {
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    border-style: hidden;
+    cursor: pointer;
+    font-size: lem;
+    font-weight: 600;
+    transition: .4s
+}
+
+.mainButton:hover {
+    background-color: antiquewhite;
+    border: 1px solid wheat;
+}
+
+@media (max-width: 835px) {
+    .navLinks {
+        display: none;
+    }
+
+    .menubutton {
+        display: flex;
+        font-size: 2em;
+        color: black;
+    }
+}
+
+.navlinks_sidebar {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    top: 0;
+    margin: 0;
+  
+
+}
+
+.navlinks_sidebar a {
+    margin: 0;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #f8f8f8;
+}
+
+.cards {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 450;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.cardsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    gap: 2px;
+    text-align: center;
+    flex-direction: column;
+    width: 85%;
+    padding: 0 30PX;
+    margin: auto;
+    
+}
+
+.tituloContainer {
+    text-align: center;
+    font-weight: 700;
+    font-size: medium;
+
+}
+
+
+.cards button {
+    border-radius: 3px;
+}
+
+.cards button:hover {
+
+    cursor: pointer;
+    background-color: dimgrey;
+
+}
+
+.imgwhats {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.buttoncontainer a {
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.cards p {
+
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.cards li {
+    text-align: center;
+    font-weight: 500;
+
+
+}
+
+.infcontainer p{
+
+    text-align: center;
+}
+@media (max-width: 510px){
+
+    .cards img{
+ width: 300px
+
+    }
+}
+
+.cardfg{
+
+    text-align: center;
+}
+
+.cardfg p{
+
+    font-weight: 500;
+    margin: 0;
+    
+}
+
+.cardfg button{
+    border-radius: 3px;
+    margin-top: 20px;
+
+}
+.footerContainer{
+display: flex;
+justify-content: center;
+align-items: baseline;
+gap: 100px;
+
+}
+
+.footerinf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15PX;
+}
+
+.footerg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15PX;
+
+}
+.tooltip_container{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    color: rgb(58, 168, 168);
+
+}
+
+.tooltip{
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3;
+}
+.tooltip::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+.tooltip_container:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+}
     align-items: center;
     position: fixed;
     height: 0;
