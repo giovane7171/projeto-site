@@ -1,0 +1,58 @@
+inicio do site: oque é jiu jitsu, e como foi inventado
+
+about: redirecionar a wikipedia com mais informaçoes
+
+federaçao mundial: redirecionar para site da ibjjf
+
+federaçao brasileira: rederecionar para site da cbjje
+
+principais competiçoes: outra pagina, comentando sobre o brasileiro, mundial, europeu, pan-americano, adcc, bjj stars
+
+lista palavras hover[
+    
+jiu jitsu
+esporte
+filosofia
+principios
+india
+monges budistas
+saqueadores
+budismo
+armas
+luta
+japao
+samurais
+golpes
+mitsyuo maeda
+artes marcias
+brasileiro
+pais
+estados unidos
+brasileira
+belem 
+pará
+carlos gracie
+familia gracie
+rio de janeiro
+sao paulo
+helio gracie
+judo
+jigoro kano
+kodokan
+porto alegre
+colonia
+rolls gracie
+karate
+rorion gracie
+ufc
+rickson, royce, royler, renzo, ralph, ryan, rodrigo e kyra
+phone
+sistema alimentar
+carlos gracie
+hiperuricemia
+hipocrates
+nutriçao
+vegetariano
+]
+
+https://api.whatsapp.com/send/?phone=5592985999360&text&type=phone_number&app_absent=0

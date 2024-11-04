@@ -9,4 +9,4 @@ if (sidebar.style.display === 'block') {
     sidebar.style.display = 'block';
 }
 
-    }
+    } 
